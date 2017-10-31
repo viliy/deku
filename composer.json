@@ -1,0 +1,34 @@
+{
+    "name": "villy/deku",
+    "type": "library",
+    "license": "MIT",
+    "description": "DeKu",
+    "minimum-stability": "stable",
+    "keywords": ["DeKu"],
+    "authors": [
+        {
+            "name": "villy",
+            "email": "34485431@qq.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "DeKu\\": "src"
+        },
+        "files": [
+            "helpers.php"
+        ]
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "": "tests/app/src"
+        }
+    },
+    "require": {
+        "php": ">=7.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^5.0",
+        "phpunit/dbunit": "^2.0"
+    }
+}
